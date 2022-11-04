@@ -33,7 +33,8 @@ int main() {
             std::cout << year_a_s << " is a common year" << std::endl;
         }
     } catch (std::invalid_argument) {
-        std::cout << "That was not a valid input." << std::endl;
+        std::cout << "\nInvalid entry, "
+                  << year_a_s << " is not a year.";
     }
 
     std::cout << ("\nDone.") << std::endl;
